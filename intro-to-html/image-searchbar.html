@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .image {
+            width: 55px;
+            margin-left: 15px;
+            margin-right: 15px;
+            border-radius: 27.5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+
+        .image:hover {
+            transform: scale(1.1);
+        }
+
+        .image:active {
+            transform: scale(0.9);
+        }
+
+        .text {
+            font-family: "Roboto";
+            font-size: 20px;
+            color: gray;
+            vertical-align: middle;
+            cursor: pointer;
+        }
+        
+        .tweet {
+            background-color: rgb(29, 161, 242);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: opacity 0.3s, background-color 0.3s;
+            margin-left: 100px;
+        }
+
+        .tweet:hover {
+            background-color: rgb(13, 142, 207);
+            opacity: 0.8;
+        }
+
+        .tweet:active {
+            transform: scale(0.95);
+            opacity: 0.95;
+        }
+
+        .search-bar {
+            width: 450px;
+            height: 20px;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image-searchbar</title>
+</head>
+<body>
+    <input class = "search-bar" type="text" placeholder="Search your URL">
+    <p>
+        <img src = "Images/Screenshot.png" alt = "Image" class= "image">
+        <span class = "text">What is happening ?</span>
+        <button class = "tweet">Tweet</button>
+    </p>
+    
+</body>
+</html>
