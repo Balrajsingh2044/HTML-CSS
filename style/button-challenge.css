@@ -1,0 +1,54 @@
+button {
+            cursor: pointer;
+        }
+        span {
+            text-decoration: underline;
+            color: blue
+            
+        }
+        .Back-button {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-right: 20px;
+        }
+        .Next-button {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 20px;
+        }
+
+        .stretch {
+            padding-top : 5px;
+            padding-bottom : 5px;
+            padding-left : 10px;
+            padding-right : 10px;
+            background-color: green;
+            color: white;
+            border: none;
+            transition: padding 1s;
+        }
+        
+        .stretch:hover {
+            padding-top : 20px;
+            padding-bottom : 20px;
+            padding-left : 40px;
+            padding-right : 40px;
+        }
+
+        .click-button {
+            padding-top : 5px;
+            padding-bottom : 5px;
+            padding-left : 10px;
+            padding-right : 10px;
+            background-color: green;
+            color: white;
+            border: none;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            
+        }
+
+        .click-button:active {
+            margin-top: 2px;
+            margin-left: 2px;
+            box-shadow: none;
+        }
