@@ -49,6 +49,12 @@
     cursor: pointer;
 }
 
+.hamburger-menu:hover {
+    transform: scale(0.95);
+}
+
+
+
 .youtube-logo {
     height: 20px;
     cursor: pointer;
